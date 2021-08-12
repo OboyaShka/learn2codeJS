@@ -16,7 +16,7 @@ const person = new Object({
 )
 
 Object.prototype.sayHello = function () {
-    console.log('Say hello!')
+    console.log('Say hello!') 
 }
 
 const lena = Object.create(person)
